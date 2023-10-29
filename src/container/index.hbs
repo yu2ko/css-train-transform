@@ -6,7 +6,13 @@
     <div class='task1 task'>
     </div>
   </div>
-</div> 
+</div>
+<div class="box"><pre>.task1 {
+  transition: all 1s ease-in;
+}
+.task1:hover {
+  transform: rotate(270deg);
+}<br></pre></div> 
 
 {{> title header='Завдання 2' description='Розверніть елемент .task2 на 135 градусів навколо його горизонтальної осі при наведенні ,тривалість трансформації 1 секунда з лійнійним переходом'}} 
 <div class="wrapper">
@@ -16,7 +22,13 @@
 
     </div>
   </div>
-</div> 
+</div>
+<div class="box"><pre>.task2 {
+  transition: all 1s linear;
+}
+.task2:hover {
+  transform: rotateX(135deg);
+}<br></pre></div>  
 
  {{> title header='Завдання 3' description='Розверніть елемент .task3 на 45 градусів навколо його вертикальної осі при наведенні ,тривалість трансформації 1 секунда з прискорення на початку і сповільненням в кінці'}} 
 <div class="wrapper">
@@ -27,6 +39,12 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task3 {
+  transition: all 1s ease-out;
+}
+.task3:hover {
+  transform: rotateY(45deg);
+}<br></pre></div> 
 
  {{> title header='Завдання 4' description='Збільшіть маштаб елемента .task4 в 1.3 рази при наведенні ,тривалість трансформації 1 секунда з лійнійним переходом'}} 
 <div class="wrapper">
@@ -37,6 +55,12 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task4 {
+  transition: all 1s linear;
+}
+.task4:hover {
+  transform: scale(1.3);
+}<br></pre></div> 
 
  {{> title header='Завдання 5' description='Збільшіть маштаб елемента .task5 в 1.5 рази в горизонтальному напрямку при наведенні ,тривалість трансформації 1 секунда зі сповільненням переходу'}} 
 <div class="wrapper">
@@ -47,6 +71,12 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task5 {
+  transition: all 1s ease-out;
+}
+.task5:hover {
+  transform: scaleX(1.5);
+}<br></pre></div> 
 
  {{> title header='Завдання 6' description='Зменшіть маштаб елемента .task6 в 2 рази в вертикальному напрямку при наведенні ,тривалість трансформації 1 секунда з прискоренням переходу'}} 
 <div class="wrapper">
@@ -57,6 +87,12 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task6 {
+  transition: all 1s ease-in;
+}
+.task6:hover {
+  transform: scaleY(0.5);
+}<br></pre></div> 
 
  {{> title header='Завдання 7' description='Задайте кут нахилу елемента .task7 30 градусів при наведенні ,тривалість трансформації 1 секунда зі сповільненням переходу'}} 
 <div class="wrapper">
@@ -67,6 +103,12 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task7 {
+  transition: all 1s ease-out;
+}
+.task7:hover {
+  transform: skewX(30deg);
+}<br></pre></div> 
 
  {{> title header='Завдання 8' description='Задайте кут нахилу елемента .task8 по горизонталі 25 градусів при наведенні ,тривалість трансформації 1 секунда з прискорення на початку і сповільненням в кінці'}} 
 <div class="wrapper">
@@ -77,8 +119,14 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task8 {
+  transition: all 1s ease-in-out;
+}
+.task8:hover {
+  transform: skewX(25deg);
+}<br></pre></div> 
 
- {{> title header='Завдання 9' description='Задайте кут нахилу елемента .task9 по вертикалі 20 градусів при наведенні ,тривалість трансформації 1 секунда з прискоренням переходу '}} 
+ {{> title header='Завдання 9' description='Задайте кут нахилу елемента .task9 по вертикалі 20 градусів при наведенні ,тривалість трансформації 1 секунда з прискоренням переходу'}} 
 <div class="wrapper">
   <img src="img/task9.gif"/>
   <div class="container">
@@ -87,8 +135,15 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task9 {
+  transition: all 1s ease-in;
+}
+.task9:hover {
+  transform: skewY(20deg);
+}<br></pre></div> 
 
- {{> title header='Завдання 10' description='Зсуньте елемент .task10 по вертикалі на 40px та по горизонталі на 60px  при наведенні ,тривалість трансформації 1 секунда з прискоренням переходу'}} 
+ {{> title header='Завдання 10' description='Зсуньте елемент .task10 по вертикалі на 40px та по горизонталі на 60px?(повинно бути 45px,згідно зразка) 
+ при наведенні ,тривалість трансформації 1 секунда з прискоренням переходу'}} 
 <div class="wrapper">
   <img src="img/task10.gif"/>
   <div class="container">
@@ -97,8 +152,15 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task10 {
+  transition: all 1s ease-in;
+}
+.task10:hover {
+  transform: translate(45px, 40px);
+}<br></pre></div> 
 
- {{> title header='Завдання 11' description='Зсуньте елемент .task11 по горизонталі на 50px  при наведенні ,тривалість трансформації 1 секунда зі сповільненням переходу'}} 
+ {{> title header='Завдання 11' description='Зсуньте елемент .task11 по горизонталі на 50px?(повинно бути 40px,згідно зразка) при наведенні,
+ тривалість трансформації 1 секунда зі сповільненням переходу'}} 
 <div class="wrapper">
   <img src="img/task11.gif"/>
   <div class="container ">
@@ -107,6 +169,12 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task11 {
+  transition: all 1s ease-in-out;
+}
+.task11:hover {
+  transform: translateX(40px);
+}<br></pre></div> 
 
  {{> title header='Завдання 12' description='Зсуньте елемент .task12 по вертикалі на 30px при наведенні ,тривалість трансформації 1 секунда з лінійним переходом'}} 
 <div class="wrapper">
@@ -116,6 +184,12 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task12 {
+  transition: all 1s linear;
+}
+.task12:hover {
+  transform: translateY(30px);
+}<br></pre></div> 
 
  {{> title header='Завдання 13' description='Зсуньте елемент .task13 по всім осям на 20px та повернить на 90 градусів за вектором 2, 2, 2 в 3D просторі при наведенні ,тривалість трансформації 1 секунда з прискоренням переходу на початку та сповільненням в кінці'}} 
 <div class="wrapper">
@@ -126,6 +200,13 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task13 {
+  transition: all 1s ease-in-out;
+}
+.task13:hover {
+  transform: translate3d(20px, 20px, 20px)
+    rotate3d(2, 2, 2, 90deg);
+}<br></pre></div> 
 
  {{> title header='Завдання 14' description='Зсуньте елемент .task14 по осі Z на 40px та повернить на 45 градусів за вектором 2, 3, 3 в 3D просторі при наведенні ,тривалість трансформації 1 секунда з прискоренням переходу'}} 
 <div class="wrapper">
@@ -136,6 +217,13 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task14 {
+  transition: all 1s ease-in;
+}
+.task14:hover {
+  transform: translate3d(0, 0, 40px)
+    rotate3d(2, 3, 3, 45deg);
+}<br></pre></div> 
 
  {{> title header='Завдання 15' description='Застосуйте матрицю з маштабуванням 0.4, кутами нахилу 1.1 та зсувом 1 для елемента .task15 при наведенні, тривалість трансформації зі сповільненням переходу'}} 
 <div class="wrapper">
@@ -146,6 +234,12 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task15 {
+  transition: all 1s ease-in-out;
+}
+.task15:hover {
+  transform: matrix(0.4, 1.1, 1.1, 0.4, 1, 1);
+}<br></pre></div> 
 
  {{>  title header='Завдання 16' description='Застосуйте матрицю 4х4 з коментаря нижче для елемента .task16 при наведенні, тривалість трансформації з лінійним переходом  "0.5, 0, -0.866025, 0, 0.595877, 1.2, -1.03209, 0, 0.866025, 0, 0.5, 0, 25.9808, 0, 15, 1"'}} 
 {{!-- 0.5,        0,      -0.866025, 0,  0.595877,   1.2,    -1.03209,  0,  0.866025,   0,       0.5,      0, 25.9808,     0,      15,        1 --}}
@@ -157,3 +251,9 @@
     </div>
   </div>
 </div>
+<div class="box"><pre>.task16 {
+  transition: all 1s linear;
+}
+.task16:hover {
+  transform: matrix3d(0.5, 0, -0.866025, 0, 0.595877, 1.2, -1.03209, 0, 0.866025, 0, 0.5, 0, 25.9808, 0, 15, 1);
+}<br></pre></div>
